@@ -28,5 +28,8 @@ color : red;
 }
 footer {
 text-align : center;
-margin-top : 100%;
+margin-top : 50px;
+position: fixed;
+left: 0;
+bottom: 0;
 }
