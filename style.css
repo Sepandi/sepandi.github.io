@@ -1,0 +1,37 @@
+.title {
+font-size : 40px;
+text-align : center;
+font-family :Verdana, sans-serif;
+}
+img {
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+  width: 50px;
+}
+sub{ 
+  vertical-align: sub;
+  font-size: 15px;
+  color : orange;
+}
+div {
+margin-top : 50px;
+border: 1px solid black;
+width : 100%;
+height : auto ;
+}
+.divp{
+text-align : center;
+}
+.download {
+color : red;
+}
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
