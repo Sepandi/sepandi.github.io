@@ -1,6 +1,4 @@
 h1 .title {
     text-align: center;
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Noto Sans','Ubuntu','Open Sans', sans-serif;
 }
