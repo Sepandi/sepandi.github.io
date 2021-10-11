@@ -3,3 +3,11 @@ h1 .title {
     font-family: 'Noto Sans','Ubuntu','Open Sans', sans-serif;
     font-weight: 800;
 }
+p .post_title{
+   text-align: center; 
+   font-weight: 400;
+}
+p .post_body{
+    text-align: left; 
+    font-weight: 200;
+ }
