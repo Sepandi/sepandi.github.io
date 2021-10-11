@@ -10,4 +10,7 @@ p .post_title{
 p .post_body{
     text-align: left; 
     font-weight: 200;
- }
+}
+body {
+    background-color: olivedrab;
+}
