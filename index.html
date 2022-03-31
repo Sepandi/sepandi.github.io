@@ -1,13 +1,80 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Sepandi's Blog</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1 class="title">Sepandi's Blog</h1>
-    <hr/>
-    <post_title>The Game's Name is ....</post_title>
-  </body>
+    <head>
+        <title>Sepandi's Game WorkShop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <style>
+            body {
+                background-color: rgb(143, 223, 250);
+            }
+            .MainTitle{
+                text-align: center;
+                font-size: 200%;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: rgb(71, 165, 209);
+            }
+            .BlogPost{
+                text-align: center;
+                width: 50%;
+                height: auto;
+                border-style:dashed;
+                border-color: rgb(71, 165, 209);
+                padding: 2%;
+                margin: 10px;
+            }
+            .PostTitle{
+                font-size: 20px;
+                font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-style: normal;
+                color: rgb(71, 165, 209);
+            }
+            .PostParagraph{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                color: rgb(71, 165, 209);
+            }
+            .DownloadLink{
+                color: rgb(75, 148, 75); 
+                margin: 2px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1 class="MainTitle">
+            Sepandi's Game WorkShop
+        </h1>
+        <center>
+            <div class="BlogPost">
+                <h1 class="PostTitle">
+                    Little Tales : Tiny Escaper
+                </h1>
+                
+                <p class="PostParagraph">
+                   Escape from undegrounds . Under Development
+
+                </p>
+                <div>
+                    <button class="DownloadButton">Coming Soon</button>
+                </div>
+                <img src="Assets/LittleTaleCharecter.png">
+            </div>
+            <div class="BlogPost">
+                <h1 class="PostTitle">
+                    No More Dots
+                </h1>
+                
+                <p class="PostParagraph">
+                    Eat Dots as Fast as you can ! Because you only have 30 Minutes to eats them all !
+
+                </p>
+                <div>
+                    <button class="DownloadButton"><a href="index.html" class="DownloadLink">Download Releases from Github</a></button>
+                </div>
+                <img src="Assets/NoMoreDotsCharecter.png">
+        
+            </div>
+        </center>
+    </body>
 </html>
