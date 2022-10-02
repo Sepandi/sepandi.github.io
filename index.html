@@ -99,7 +99,15 @@
         <div class="info">
             <img src="img/Sepandi.PNG">
             <h1> I'm Sepano Darbandi </h1>
-            <h2>I'm 16 years old and I Make Games as a Hobby</h2>
+            <h2>I'm <span id="age"></span> years old and I Make Games as a Hobby</h2>
+            <script>
+                let yearsPased = new Date().getFullYear() - 2006
+                console.log(new Date().getMonth())
+                if (new Date().getMonth() < 10){
+                    yearsPased -= 1
+                }
+                document.getElementById("age").innerHTML = yearsPased
+            </script>
         </div>
         <br/>
         <div class="socials">
