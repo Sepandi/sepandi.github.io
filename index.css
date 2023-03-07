@@ -8,6 +8,17 @@ h1{
     font-weight: bold;
 }
 
+a{
+    background: #006f79 ;
+    padding: 5px;
+    margin: 5px;
+    color: azure;
+    text-decoration:none;
+}
+a:hover{
+    color:rgb(159, 172, 172);
+}
+
 .tabsLink {
     background-color: #6c6c66;
     color: white;
