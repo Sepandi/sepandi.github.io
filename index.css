@@ -81,6 +81,10 @@ a:hover{
     float: center;  
     
 }
+.Project img:hover{
+    max-width: 100%;
+    border:solid rgb(86, 187, 154);
+}
 
 .Project li{
     padding: 10px;
@@ -137,4 +141,8 @@ iframe {
     max-height: 80%;
     float:left;
     text-align:center;
+}
+
+#HomePage .content iframe{
+    max-width: 200%;
 }
