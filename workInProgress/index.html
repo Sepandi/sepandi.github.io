@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!--    Tab Bars    -->
+        <div id="Home" class="tabs">
+            <img src="Sepandi.PNG" class="sepandiPic">
+            <h1>Hi ! I'm Sepano Darbandi</h1>
+            <p>a Hobbyist Independent Game Developer / Software Engineer / 16 Years Old Student</p>
+            <p><u>My Socials</u> : <a href="https://twitter.com/sepandi_">Twitter</a>|<a href="https://github.com/Sepandi">Github</a></p>
+        </div>
+
+        <div id="Projects" class="tabs">
+            <h1>My Personal Projects</h1>
+            <p>a List of the Projects I have done</p> 
+        </div>
+
+
+        <!--    Tabs Button Links   -->
+        <button class="tabsLink" onclick="openPage('Home', this, '#37946e')" id="defaultOpen">Home</button>
+        <button class="tabsLink" onclick="openPage('Projects', this, '#006f79')">Projects</button>
+
+
+        <!--    Pages Content   -->
+        <div id="HomePage" class="content">
+            <h1>Experience</h1>
+            <p>I have Experiences with Java , C++ and Python in Game Development . </p>
+            <iframe src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sepandi&layout=compact&hide=c,objective-c"></iframe>
+        </div>
+
+        <div id="ProjectsPage" class="content">
+
+
+            <div class="Project">
+                <button onclick="on('CarrotsSeason')"><img src="img/Games/CarrotsSeason.png" title="Click for Screenshots"></button>
+                <p>Carrot's Season</p>
+                <span>a Farming Simulator Game</span>
+                <li>Made with Java</li>
+                <li>Using my own 2D Game Engine "MayaCore"</li>
+                <li>Made for Cozy Autumn Game Jam Originally</li>
+                <li>Made on September 2022</li>
+            </div>
+
+            <div class="Project">
+                <button onclick="on('LittleTale')"><img src="img/Games/LittleTale.png" title="Click for Screenshots"></button>
+                <p>Little Tale</p>
+                <span>a mini Dungeon Crawler</span>
+                <li>Made with Python</li>
+                <li>Using Pygame</li>
+                <li>Made on June 2022</li>
+            </div>
+
+            <div class="Project">
+                <button onclick="on('NoMoreDots')"><img src="img/Games/NoMoreDots.png" title="Click for Screenshots"></button>
+                <p>No More Dots</p>
+                <span>Eat Dots as Much as You can</span>
+                <li>Made with C#/.NET</li>
+                <li>Using MonoGame Framework</li>
+                <li>Made on October 2021</li>
+            </div>
+
+
+
+
+            <div id="overlay" onclick="off()">
+                <img id="pic1">
+                <img id="pic2">
+            </div>
+
+
+        </div>
+
+        <script src="index.js"></script>
+   
+    </body>
+</html> 
