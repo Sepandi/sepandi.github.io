@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="Sepandi.PNG">
+        <title>Sepano Darbandi</title>
+        <style>
+            body {
+                font-family: Lato,arial,sans-serif;
+                color: #272446;
+                background: #e1dacd;
+                font-size: 1.1em;
+                padding: 1%;
+            }
+            .info {
+                width: -moz-fit-content;
+                width: fit-content;
+                align-self: left;
+                padding: 1cm;
+                border-radius: 20px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            .socials {
+                align-self: left;
+            }
+            header .info h1{
+                font-size: 1cm;
+                color: #37946e;
+                margin-bottom: 0.4cm;
+                margin-left: 4cm;
+                
+            }
+            header .info h2{
+                font-size: 100%;
+                margin-left: 4cm;
+                color: 343244;
+                
+            }
+
+            header .info img{
+                width: 120px;
+                border-radius: 50%;
+                float: left;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            header .socials a{
+                text-decoration: none;
+                font-size: 0.4cm;
+                color: #ffffff;
+            }
+            header .socials button{
+                border: none;
+                padding: 10px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                background-color: #37946e;
+                border-radius: 100px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                
+            }
+
+
+            body .GameBox {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                align-items : center;
+                margin-top: 1cm;
+                margin-bottom: 1cm;
+                margin-left: 1cm;
+                width: min-content;
+                align-content: center;
+                padding: 0.5cm;
+                border-radius: 5%;
+            }
+            body h2 {
+                align-items : center;
+                margin-top: 1cm;
+                margin-bottom: 1cm;
+                margin-left: 1cm;
+                align-content: center;
+            }
+            body .GameBox img{
+                width: 120px;
+                border-radius: 5%;
+                float: center;
+            }
+
+            body .GameBox p{
+                margin-bottom: 0.1cm;
+                margin-left: 0.1cm;
+                text-align: center;
+                font-size: 100%;
+                color: #343244;
+
+            }
+            body a{
+                text-decoration: none;
+                font-size: 0.4cm;
+                color: #ffffff;
+            }
+
+
+
+
+            
+
+        </style>
+    </head>
+    <header>
+        <div class="info">
+            <img src="Sepano.png">
+            <h1> I'm Sepano Darbandi </h1>
+            <h2>I'm a <span id="age"></span> years old Student and I Make Games as a Hobby . <br> I have Experience with C/C++ , C# , Java and Python .</h2>
+            <script>
+                let yearsPased = new Date().getFullYear() - 2006
+                if (new Date().getMonth() < 10){
+                    yearsPased -= 1
+                }
+                document.getElementById("age").innerHTML = yearsPased
+                console.log("\n%cSepano (Sepandi) 's Website \nMade in %cHTML%c,%cCSS %c& a tiny bit of %cJS","font-size:15px; font-weight:100;", "font-size:15px; font-weight:100;color:orange;","font-size:15px; font-weight:100;color:white;", "font-size:15px; font-weight:100;color:cyan;", "font-size:15px; font-weight:100;color:white;", "font-size:15px; font-weight:100;color:yellow;")
+            </script>
+        </div>
+        <br/>
+        <div class="socials">
+            <br/>
+            <button><a href="https://github.com/sepandi">Github</a></button>
+            <button><a href="https://twitter.com/sepandi_">Twitter</a></button>
+        </div>
+    </header>
+    <body>
+        <h2>My Games</h2>
+        <div class="GameBox">
+            <a href="Game/Specters/">
+                <img src="img/Games/Specters.png">
+                <p>Specters</p>
+            </a>
+        </div>
+        <div class="GameBox">
+            <a href="Game/Mazkey/">
+                <img src="img/Games/Mazkey.png">
+                <p>Mazkey</p>
+            </a>
+        </div>
+        <div class="GameBox">
+            <a href="Game/CarrotsSeason/">
+                <img src="img/Games/CarrotsSeason.png">
+                <p>Carrot's Season</p>
+            </a>
+        </div>
+        <div class="GameBox">
+            <a href="Game/LittleTale/">
+                <img src="img/Games/LittleTale.png">
+                <p>Little Tale</p>
+            </a>
+        </div>
+        <div class="GameBox">
+            <a href="Game/NoMoreDots/">
+                <img src="img/Games/NoMoreDots.png">
+                <p>No More Dots</p>
+            </a>
+        </div>
+        
+    </body>
+</html>
